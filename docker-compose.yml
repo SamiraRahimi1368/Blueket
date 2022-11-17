@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  site:
+    image: node:lts-bullseye-slim
+    container_name: BlueKet
+    ports:
+      - 3000:3000
+    volumes:
+      - /Samira/BlueKet:/BlueKet
+    command: >
+      bash -c
+      "
+      tail -f /dev/null
+      "
