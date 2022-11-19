@@ -9,7 +9,7 @@ const Hero = () => {
         </div>
         <img
             src="https://picsum.photos/500/500"
-            className="w-48 aspect-square"
+            className="w-48 aspect-video"
         />
     </div>
 }
