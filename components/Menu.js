@@ -5,7 +5,8 @@ const Menu = () => {
         <a className="hover:bg-blue-800 hover:text-white cursor-pointer px-4 py-2 transition duration-500 rounded-lg hover:shadow-lg">Home</a>
         <a className="hover:bg-blue-800 hover:text-white cursor-pointer px-4 py-2 transition duration-500 rounded-lg hover:shadow-lg">About</a>
         <a className="hover:bg-blue-800 hover:text-white cursor-pointer px-4 py-2 transition duration-500 rounded-lg hover:shadow-lg">Contact</a>
-    </nav>
+</nav>
+
 }
 
 export default Menu

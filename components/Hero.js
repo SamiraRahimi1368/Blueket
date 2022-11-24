@@ -1,6 +1,6 @@
 const Hero = () => {
     return <div
-        className="h-screen bg-indigo-100 absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center gap-10"
+        className="h-screen bg-indigo-100 relative top-0 bottom-0 left-0 right-0 flex items-center justify-center gap-10"
     >
         <div>
             <h1 className="text-5xl font-black text-blue-900">Jump ahead</h1>
