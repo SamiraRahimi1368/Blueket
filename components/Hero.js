@@ -13,7 +13,9 @@ const Hero = () => {
                 <div>New Technology.</div>
             </div>
             <div className="text-lg my-6 leading-8 ">A full-service digital marketing firm that specialises in human-centered experiences. We bring companies and people together.</div>
-            <div>CTA</div>
+            <div
+                className=""
+            >Get Started</div>
             <div>Boasting</div>
             <img src="/images/hero.png" />
         </div>
