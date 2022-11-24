@@ -1,3 +1,1 @@
-https://demo.templatemonster.com/demo/241010.html
-
-Demo 2
+https://separateweb.com/blueket-template/demo-web-design.html
