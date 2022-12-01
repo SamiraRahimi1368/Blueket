@@ -1,7 +1,9 @@
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import Services from '../components/Services'
-import Sections from '../components/Sections'
+import Header from 'Shared'
+import {
+  Hero,
+  Sections,
+  Services,
+} from 'Index'
 
 export default function Home() {
   return (
