@@ -32,11 +32,21 @@ const scopes = [
 ]
 
 const Sections = () => {
-    return <div className="text-white">
+    return <div
+        className="text-white grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 mx-4 gap-4 sm:mx-16 sm:gap-6 md:mx-8 lg:mx-16"
+    >
         {
-            scopes.map(i => <div key={i.id}>
-                <img src={i.image} />
-                <span>{i.title}</span>
+            scopes.map(i => <div
+                key={i.id}
+                className=" border border-gray-600 p-1.5 flex rounded-full items-center gap-2 lg:gap-6"
+            >
+                <img
+                    src={i.image}
+                    className="w-12 aspect-square rounded-full lg:w-16"
+                />
+                <span
+                    className="mr-3"
+                >{i.title}</span>
             </div>)
         }
     </div>
