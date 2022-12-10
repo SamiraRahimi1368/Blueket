@@ -1,12 +1,18 @@
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+
+// 1- how to skip many slides per swipe
+// 2- how to show half of the next slide, a good UX feedback
+
 const Users = ({ users }) => {
 
-  
-
-    return <div
-        className="text-white grid mx-auto max-w-screen-md grid-cols-3 gap-x-6 gap-y-20 mt-5 "
+    return <Swiper
+        spaceBetween={20}
+        slidesPerView={2.6}
+        className="text-white grid mx-auto max-w-screen-md grid-cols-3 gap-x-6 gap-y-20 mt-5 select-none cursor-grab"
     >
         {
-            users.map(users => <div
+            users.map(users => <SwiperSlide
                 key={users.id}
                 className="border border-orange-300	rounded-lg p-5 	"
             >
@@ -14,9 +20,9 @@ const Users = ({ users }) => {
                 <h3 className="text-white ">Age : {users.age}</h3>
                 <h3 className="text-white ">Email: {users.email}</h3>
                 <h3 className="text-white ">Phone: {users.phone}</h3>
-            </div>)
+            </SwiperSlide>)
         }
-    </div>
+    </Swiper>
 }
 
 export default Users
