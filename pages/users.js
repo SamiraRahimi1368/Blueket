@@ -9,6 +9,7 @@ const Users = ({ users }) => {
     return <Swiper
         spaceBetween={20}
         slidesPerView={2.6}
+        slidesPerGroup={4}
         className="text-white grid mx-auto max-w-screen-md grid-cols-3 gap-x-6 gap-y-20 mt-5 select-none cursor-grab"
     >
         {
@@ -16,14 +17,15 @@ const Users = ({ users }) => {
                 key={users.id}
                 className="border border-orange-300	rounded-lg p-5 	"
             >
-                <h3 className="text-white">Name: {users.firstName} {users.lastName}</h3>
-                <h3 className="text-white ">Age : {users.age}</h3>
-                <h3 className="text-white ">Email: {users.email}</h3>
-                <h3 className="text-white ">Phone: {users.phone}</h3>
+                <h3 >Name: {users.firstName} {users.lastName}</h3>
+                <h3 >Age : {users.age}</h3>
+                <h3 >Email: {users.email}</h3>
+                <h3 >Phone: {users.phone}</h3>
             </SwiperSlide>)
         }
     </Swiper>
 }
+
 
 export default Users
 
