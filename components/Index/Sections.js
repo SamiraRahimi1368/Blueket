@@ -40,10 +40,10 @@ const Sections = () => {
                 key={i.id}
                 className=" border border-gray-600 p-1.5 flex rounded-full items-center gap-2 lg:gap-6"
             >
-                <img
+                {/* <img
                     src={i.image}
                     className="w-12 aspect-square rounded-full lg:w-16"
-                />
+                /> */}
                 <span
                     className="mr-3"
                 >{i.title}</span>

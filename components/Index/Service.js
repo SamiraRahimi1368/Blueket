@@ -2,7 +2,7 @@ const Service = (props) => {
 
     return <div className="ml-6  mr-10 flex justify-center rounded-lg bg-zinc-800 	border-gray-300">
         <div>
-            <img src={props.image} className=" rounded-md h-50 w-80 p-3 " />
+            {/* <img src={props.image} className=" rounded-md h-50 w-80 p-3 " /> */}
             <div className="text-white flex flex-col text-1xl  font-inter">
                 <ul className="p-5 pt-2 text-gray-400  	">
                     {props.title}
@@ -20,3 +20,4 @@ const Service = (props) => {
 }
 
 export default Service
+

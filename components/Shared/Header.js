@@ -4,9 +4,9 @@ const Header = () => {
         className="flex justify-between items-center mx-2 mt-4"
     >
         <div>
-            <img
+            {/* <img
                 src='/images/logo-white.svg'
-            />
+            /> */}
         </div>
         <div className="hidden">CTA</div>
         <div

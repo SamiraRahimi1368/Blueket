@@ -14,11 +14,11 @@ const Products = ({ total, products }) => {
                 className=" pt-3 hover:scale-110 "
             >
                 <h3>{product.title}</h3>
-                <img
+                {/* <img
                     
                     className="w-32 h-32 object-cover  rounded-lg  pt-2 "
                     src={product.thumbnail}
-                />
+                /> */}
             </div>)
         }
     </div>

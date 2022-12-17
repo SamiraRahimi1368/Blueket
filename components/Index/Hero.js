@@ -17,7 +17,7 @@ const Hero = () => {
                 className=""
             >Get Started</div>
             <div>Boasting</div>
-            <img src="/images/hero.png" />
+            {/* <img src="/images/hero.png" /> */}
         </div>
     </div>
 }
